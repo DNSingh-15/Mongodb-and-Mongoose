@@ -41,11 +41,11 @@ mongodb-compass
 1. use databaseName
 2. show dbs
 3. db.createCollection('coll.name')
-4. db.user.insertOne({  })
-5. db.user.insertMany({ },{ },{ })
-6. db.user.find()
-7. db.user.deleteOne({key:value})
-8. db.user.deleteMany({key:value},{key:value})
+4. db.collectionName.insertOne({  })
+5. db.collectionName.insertMany({ },{ },{ })
+6. db.collectionName.find()
+7. db.collectionName.deleteOne({key:value})
+8. db.collectionName.deleteMany({key:value},{key:value})
 etc
 ```
 
