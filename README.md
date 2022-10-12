@@ -36,6 +36,11 @@ sudo dpkg -i mongodb-compass_1.33.0_amd64.deb
 mongodb-compass
 ```
 
+## remove
+```
+sudo apt-get purge mongodb-org*
+```
+
 ### `some important commands`
 ```
 1. use databaseName
